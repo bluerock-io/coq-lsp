@@ -38,6 +38,7 @@ depends: [
 
   # [release branch] Uncomment
   # "coq"          { >= "8.20" < "8.21"  }
+  "coq"
 
   # [release branch] Remove
   "ocamlfind" {>= "1.9.1" & (>= "1.9.8" | os != "windows") }
